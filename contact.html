@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- ICON CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- CSS file Link -->
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+  <body>
+      <!-- Ticker start -->
+     <div class="ticker-container">
+      <div class="ticker-content" id="ticker">
+        <span id="date"></span> - <span id="time"></span>
+      </div>
+    </div>
+    <!-- ticker end  -->
+    <!-- navbar start  -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #53284f;;">
+        <div class="container-fluid mt-5">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png"                                                                                                                                                                                     >
+          </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index..html" style="color:  #ffffff;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color:  #ffffff;">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cards (1).html" style="color:  #ffffff;">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catogeries.html" style="color:  #ffffff;">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color:  #ffffff;">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Nav bar end  -->
+
+    <!-- Banner Start -->
+    <div class="banner position-relative">
+        <img src="img/Banner.jpg" class="w-100 img-fluid" alt="">
+        <div class="banner-text">
+            <h1 class="position-absolute top-50 start-50 translate-middle" style=" color: #ffffff;" >Contact Us</h1>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- 1st Section Start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 position-relative" style="margin: 0; padding: 0;">
+                <img src="img/Side img.jpg" class="w-100 h-100" alt="">
+                <div class="text position-absolute top-50 start-50 translate-middle">
+                  <button type="button" class="btn btn-outline-dark">Contact With us</button>
+                </div>
+            </div>
+            <div class="col-lg-6 p-5" style="background-color: #53284f;">
+                <img src="img/logo.png" class="d-flex m-auto mt-4" alt="">
+
+                <h2 class="mt-5 text-center" style="color: #ffffff;">Contact us</h2>
+                <form action="" class="w-50 m-auto" onsubmit="return validation()">
+                <div class="mt-4 mb-2">
+                    <label class="form-label" style="color: #ffffff;">User Name</label>
+                    <input type="text" class="form-control" id="uname" required>
+                    <span id="nameError" class="text-danger"></span> 
+                </div>
+                <div class="mt-4 mb-2">
+                    <label class="form-label" style="color: #ffffff;">User Email</label>
+                    <input type="email" class="form-control" id="uemail" required>
+                    <span id="emailError" class="text-danger"></span>
+                </div>
+                <div class="mt-4 mb-2">
+                    <label class="form-label" style="color: #ffffff;">Contact num</label>
+                    <input type="tel" class="form-control" id="num" required>
+                    <span id="numError" class="text-danger"></span>
+                </div>
+              <div class="mt-4 mb-2">
+                <label class="form-label"  style="color: #ffffff;">Message</label>
+                <textarea  cols="37" rows="5" id="35" id="mesg" required>
+                </textarea>
+                <span id="MessageError" class="text-danger"></span>
+              </div>
+                <button type="submit" class="btn btn-outline-light mt-4 p-2">Submit</button>
+              </form>
+            </div>
+        </div>
+    </div>
+    <!-- 1st Section End -->
+ <!-- FAQ Section start -->
+ <div class="container mt-5">
+  <div class="row">
+    <div class="col">
+      <h1 class="text-center mb-4">Frequently Ask Question</h1>
+      <div class="accordion mb-4" id="accordionExample">
+      <!-- 1st Question Start -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What makes Fanimation ceiling fans different from others on the market?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>High-Quality Materials:</strong> Fanimation uses premium-quality materials in the construction of their ceiling fans, ensuring durability and longevity. Whether it's the blades, motor, or housing, Fanimation fans are built to last..
+            </div>
+          </div>
+        </div>
+        <!-- 1st Question End -->
+
+        <!-- 2nd Question Start -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How do I choose the right size Exhaust fan for my room?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Determine the Required Airflow (CFM): </strong>The required airflow, measured in cubic feet per minute (CFM), depends on the room size and its intended use. As a general rule of thumb, bathrooms typically require higher CFM ratings due to increased moisture levels, while other rooms may have different requirements.
+            </div>
+          </div>
+        </div>
+        <!-- 2nd Question End -->
+
+        <!-- 3rd Question Start -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              What type of Wall fan is best for outdoor use?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Weatherproof Construction: .</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- 3rd Question End -->
+
+        <!-- 4th Question Start -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Can I use a remote control with my Fanimation ceiling fan?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Yes, Our Fanimation ceiling fans are compatible with remote controls, providing convenient and easy operation from a distance. Here are some key points regarding the use of remote controls with Fanimation ceiling fans:
+            </div>
+          </div>
+        </div>
+        <!-- 4th Question End -->
+
+        <!-- 5th Question Start -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              What is the energy efficiency of fans?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Energy Star-rated models:</strong> which meet stringent energy efficiency standards. Additionally, optimizing fan usage by ensuring proper sizing, placement, and maintenance can further enhance energy efficiency. For specific energy efficiency ratings and information, I recommend consulting with fan manufacturers or retailers.
+            </div>
+          </div>
+        </div>
+        <!-- 5th Question End -->
+
+        <!-- 6th Question Start -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              What is the average lifespan of a Fanimation fan?
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Fanimation fans are generally known for their durability and quality craftsmanship:</strong> With proper care and regular maintenance, including cleaning and lubrication of moving parts, a Fanimation fan can last for many years, often exceeding a decade or more. Additionally, Fanimation offers warranty coverage on their fans, providing further assurance of their longevity. For specific warranty details and product lifespan considerations, it's recommended to consult with Fanimation directly or refer to the product documentation.
+            </div>
+          </div>
+        </div>
+        <!-- 6th Question End -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FAQ Section end -->
+
+ <!-- footer section-->
+    <footer class="footer mt-4 pt-5 pb-4">
+        <div class="container">
+            <div class="row  text-md-left">
+                <div class="col-lg-3 col-md-3 mx-auto">
+                    <img src="img/logo-removebg-preview.png" width="160px">
+                    <br>
+                    <p>Welcome to our fanimation, <br> where every pixel pulses <br> with magic of storytelling.</p>
+                    <a href="https://www.instagram.com/fanimation/" target="_blank"><i class="bi bi-instagram fs-4" style="color: #53284f;" ></i></a>
+                    <a href="https://www.facebook.com/fanimation/" target="_blank"><i class="bi bi-facebook fs-4" style="color: #53284f;" ></i></a>
+                    <a href="https://www.twitter.com/fanimation/" target="_blank"><i class="bi bi-twitter fs-4" style="color: #53284f;" ></i></a>
+                    <a href="https://www.linkedin.com/company/fanimation" target="_blank"><i class="bi bi-linkedin fs-4" style="color: #53284f;"></i></a>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-4">
+                    <!-- company logo -->
+
+                    <!-- 1st section start -->
+                    <h5 class="text-uppercase mb-4 font-weight-bold mt-3" style="color: #53284f;">Company</h5>
+
+                    <ul class="link list-unstyled text-decoration-none ">
+                        <li class="foot-item">
+                            <a class="foot-link" href="index..html" target="_self">Home</a>
+                        </li>
+                        <li class="foot-item">
+                            <a class="foot-link" href="about.html" target="_self">About</a>
+                        </li>
+                        <li class="foot-item">
+                            <a class="foot-link" href="cards (1).html">Gallery</a>
+                        </li>
+                        <li class="foot-item">
+                          <a class="foot-link" href="catogeries.html">Products</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- 1st section end -->
+
+                <!-- 2nd section start-->
+                <div class="col-md-3 col-lg-3 mx-auto mt-4">
+                    <h5 class="text-uppercase mb-4 font-weight-bold mt-3" style="color: #53284f;">HOW TO BUY</h5>
+
+                    <ul class="link list-unstyled text-decoration-none mt-3">
+                        <li class="foot-item">
+                            <a class="foot-link" href="#">Register / Login Into Account</a>
+                        </li>
+                        <li class="foot-item">
+                            <a class="foot-link" href="#" target="_self">Terms And Conditions</a>
+                        </li>
+                        <li class="foot-item">
+                            <a class="foot-link" href="#">Privacy Policy</a>
+                        </li>
+                        <li class="foot-item">
+                            <a class="foot-link" href="#">Track Your Order</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- 2nd footer end  -->
+                <!-- 4 section start -->
+                <div class="col-md-3 col-lg-3 mx-auto mt-4">
+                    <h5 class="text-uppercase mb-4 mt-3" style="color: #53284f;">Fanimation</h5>
+                    <ul class="link list-unstyled text-decoration-none mt-3">
+                        <li class="home"><i class="bi bi-house-door-fill"></i>10983 Bennett Parkway</li>
+                        <li class="instagram"><i class="bi bi-instagram"></i> Zionsville, IN 46077</li>
+                        <li class="twitter"><i class="bi bi-phone"></i> Phone: 888.567.2055</li>
+                        <li class="call"><i class="bi bi-telephone-fill"></i>Fax: 866.482.5215</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- 4rd section end -->
+    <!-- last footer start  -->
+    <footer class="bg-body- text-center text-lg-start" style="background-color:rgba(0, 0, 0, 0.05);">
+        <!-- Copyright -->
+        <div class="text-center p-3 fs-5" style="background-color:#53284f; color:#ffffff">
+            © 2024 Fanimation:
+            <a class="text-decoration-none" href="#" style="color: #ffffff; ">All Rights Reserved.</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- footer end  -->
+              <!-- ticker script start-->
+              <script>
+                function updateDateTime()
+                {
+                  var now = new Date();
+                  var dateElement = document.getElementById('date');
+                  var timeElement = document.getElementById('time');
+    
+                  var dateOptions = { weekday : 'long' , year :'numeric' , month :'long', day:'numeric'}
+                  var timeOptions = { hour : 'numeric' , minute :'numeric' , second : 'numeric' , hour12 : true};
+                  dateElement.textContent = now.toLocaleDateString('en-US', dateOptions);
+                  timeElement.textContent = now.toLocaleDateString('en-US', timeOptions);
+                }
+                updateDateTime();
+                setInterval(updateDateTime , 1000)
+    
+               </script>
+               <!-- ticker script end  -->
+         <!-- javascript link  -->
+         <script src="js/script.js"></script>
+    <!-- ANIMATION CDN -->
+    <script>
+      AOS.init();
+    </script>
+   <!-- JS CDN -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

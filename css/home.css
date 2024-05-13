@@ -1,0 +1,120 @@
+.navbar-nav .nav-item .nav-link:hover
+{
+      border-bottom: 2px solid  #ffffff;
+}
+
+.ticker-container
+{
+background-color: #ffffff;
+color: #53284f;
+font-weight: bold;
+position: fixed;
+width: 100%;
+padding: 10px;
+z-index: 2;
+}
+
+.ticker-content
+{
+  display: inline-block;
+  animation: animation-ticker 20s linear infinite;
+}
+
+@keyframes animation-ticker
+{
+  0%
+  {
+    transform: translate(100%);
+  }
+  100%
+  {
+    transform: translate(-100%);
+  }
+}
+nav
+{
+position: relative;
+top: 50px;
+}
+
+.container1 {
+  position: relative;
+  margin-top: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.left-div {
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  padding-top:12% !important;
+  padding-bottom:12% !important;
+}
+
+.right-div {
+  position: absolute;
+  height: 100%;
+  top: -10%;
+  right: 0;
+  left: 40%;
+  z-index: 1;
+}
+
+@media screen and (max-width:768px) {
+  .container1 {
+    position: relative;
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .left-div {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding-top:8% !important;
+    padding-bottom:8% !important;
+    text-align: center;
+    padding-left: 10%!important;
+  
+  }
+  
+  .right-div {
+    position: relative;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+}
+.footer {
+  background-color: #ffffff;
+  color: black;
+  border-top: 2px solid #53284f;
+}
+
+.link .foot-item .foot-link {
+  color: black;
+  padding: -8%;
+}
+
+.link .foot-item .foot-link :hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  bottom: 0px;
+}

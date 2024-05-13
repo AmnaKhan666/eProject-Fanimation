@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ticker-container
+{
+background-color: #ffffff;
+color: #53284f;
+font-weight: bold;
+position: fixed;
+width: 100%;
+padding: 10px;
+z-index: 2;
+}
+
+.ticker-content
+{
+  display: inline-block;
+  animation: animation-ticker 20s linear infinite;
+}
+
+@keyframes animation-ticker
+{
+  0%
+  {
+    transform: translate(100%);
+  }
+  100%
+  {
+    transform: translate(-100%);
+  }
+}
+:root{
+    --primary-color:#333;
+    --whire-color:#fff;
+    --dark--gray:#3c4857;
+    --light--gray: #dedede;
+    --card-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0 1px 5px 0px rgba(0, 0, 0, 0.12);
+    --image-shadow:0 16px 38px -12px rgba(0, 0, 0, 0.56),
+    0 4px 25px 0px rgba(0, 0, 0, 0.10), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+a,
+a:hover{
+    text-decoration: underline;
+}
+p{
+    color: var(--dark--gray);
+    font-size: 14px;
+}
+
+/* banner img style  */
+#header{
+    background: url('../img/laiba.jpg');
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+/* para  */
+.class p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top: 4%;
+color: #ffffff;
+font-size: 18px;
+}
+
+/* heading  */
+.class h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 2em;
+    line-height: 1.6em;
+    margin: 15px 0 15px;
+    font-weight: 700;
+    font-family: "Roboto Slab", 'Times New Roman', Times, serif;
+    text-align: center; 
+}
+h4{
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1.55em;
+}
+h6{
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.section-cards{
+    padding-top: 50px;
+}
+.section-cards .card{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: var(--whire-color);
+    /* box-shadow: var(--card-shadow); */
+    border-color: #53284f;
+}
+.section-cards .card .card-image{
+    height: 30%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 9px;
+    /* zoom hover slowly  */
+    transition: all 0.5s;   
+}
+
+/* hover zoom  start*/
+.section-cards .card .card-image:hover img{
+    transform: scale(1.3);
+}
+/* hover zoom end  */
+
+.section-cards .card .content{
+    padding: 15px 30px;
+}
+
+.section-cards .card-caption,
+.section-cards .card-caption a{
+    color: var(--primary-color);
+    text-decoration: none;
+
+}
+/* name fan styling  */
+.content p{
+    color: black;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer {
+    background-color: #ffffff;
+    color: black;
+    border-top: 2px solid #53284f;
+}
+
+.link .foot-item .foot-link {
+    color: black;
+    padding: -8%;
+}
+
+.link .foot-item .foot-link :hover {
+    cursor: pointer;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/* pop up start  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

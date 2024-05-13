@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS file link  -->
+    <link rel="stylesheet" href="css/home.css">
+    <!-- animation cdn  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- animation JS CDN  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <!-- ICON CDN -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+   
+    <!-- Ticker start -->
+     <div class="ticker-container">
+      <div class="ticker-content" id="ticker">
+        <span id="date"></span> - <span id="time"></span>
+      </div>
+    </div>
+    <!-- ticker end  -->
+    <!-- Nav bar start  -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #53284f;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" style="color:  #ffffff;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color:  #ffffff;">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cards (1).html" style="color:  #ffffff;">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catogeries.html" style="color:  #ffffff;">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" style="color:  #ffffff;">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+    <!-- Nav bar end 
+       Slider Start  -->
+     <div id="carouselExampleIndicators" class="carousel slide mt-5">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative">
+          <img src="img/Banner 1.jpg" class="d-block w-100" alt="...">
+          <div class="banner-text position-absolute top-50 start-50 translate-middle">
+            <h1 class="text-center fs-1" data-aos="fade-down" style="color:  #ffffff;">Neutral & Now</h1>
+            <p class="text-center fs-4" data-aos="fade-up" style="color:  #ffffff;">Featuring the new Antique Graphite finish with new light Oak finish blades</p>
+            <a href="about.html"><button type="button" class="btn btn-outline-light  d-flex m-auto w-20 p-2">Learn more</button></a>
+          </div>
+        </div>
+        <div class="carousel-item  position-relative">
+          <img src="img/Banner2.jpg" class="d-block w-100" alt="...">
+          <div class="banner-text  position-absolute top-50 start-50 translate-middle">
+            <h1 class="text-center fs-1" style="color:  #ffffff;">New for 2024</h1>
+            <p class="text-center fs-4" style="color:  #ffffff;">A collection with a fan for Every Space</p>
+            <a href="about.html"><button type="button" class="btn btn-outline-light  d-flex m-auto w-20 p-2">Learn more</button></a> 
+          </div>
+        </div>
+        <div class="carousel-item  position-relative">
+          <img src="img/Banner3.jpg" class="d-block w-100" alt="...">
+          <div class="banner-text  position-absolute top-50 start-50 translate-middle">
+            <h1 class="text-center fs-1" style="color:  #ffffff;">Shop our Sale</h1>
+            <p class="text-center fs-4" style="color:  #ffffff;">On Select items + FREE SHIPPING</p>
+            <a href="cards (1).html"><button type="button" class="btn btn-outline-light  d-flex m-auto w-20 p-2">Shop Now!</button></a> 
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+        <!-- Slider end  -->
+        <!-- First Section Start-->
+        <div class="container">
+          <div class="row">
+          <p class="text-center text-Secondary mt-5 fs-5" style="color: #444245;">Fanimation fans are the perfect fusion of beauty and functionality. With <br> designs for every style and technology-driven controls for your <br> convenience, Fanimation fans inspire your home. They integrate into any <br> space and allow you to make a statement that is all your own.</p>
+        </div>
+        </div>
+        <!-- First Section end-->
+      
+        <!-- second section start  -->
+          <div class="container">
+            <div class="container1">
+              <div class="left-div justify-content-center align-self-center h-100 p-5" style="background-color:rgb(165, 165, 165);">
+                <h5 style="color: #444245;" class="mt-5">CHOOSING A FAN</h5>
+                <h2 style="color: #444245; font-size: 45px;" class="mt-3">Location is <br> everything.</h2>
+                <p style="color: #444245;" class="fs-5">Installing a fan in your favorite indoor <br> space? Or adding one to your outdoor <br> haven? The location determines the fan <br> rating (dry, damp and wet) you need. <br> From there, the fun begins as you <br> choose a style that fits you!</p>
+                <a href="about.html"><button type="button" class="btn btn-lg text-light mt-3" style=" background-color: #53284f ;border-radius: none;">LEARN MORE</button></a>
+                <!-- <div><img src="img/positon fan.png" alt=""></div> -->
+              </div>
+              <div class="right-div" >
+                <img src="img/side image.jpg" alt="" class="img w-100 h-100">
+              </div>
+            </div>
+          </div>
+
+          
+          <!-- second section start  -->
+          <!-- third section start  -->
+          <div>
+            <img src="img/banner4.jpeg" alt="" class="w-100 mt-5 ">
+          </div>
+          <!-- third section start  -->
+          <!-- forth section start  -->
+          <div class="container-fluid mt-5">
+            <div class="row">
+              <div class="col-lg-6" ><img src="img/fanimation shoroom.jpg" alt="" class="w-100" ></div>
+              <div class="col-lg-6" ><img src="img/fanimation studio.jpg" alt="" class="w-100"></div>
+            </div>
+          </div>
+           <!-- forth section end  -->
+           <!-- fifth section start  -->
+           <div class="container-fluid p-5 mt-5 pb-5 pt-5" style="height: 150%; background-image: url(&quot;https://fanimation.com/wp-content/uploads/2019/12/air-apparent-banner-bkgr-2.jpg&quot;); top: -35.8558%;">
+            <div class="row">
+              <div class="col-lg-6 justify-content-start p-5 mt-5 mb-5 " style="background-color: #53284f; opacity: 0.6;">
+                <h5 style=" color: #ffffff;" data-aos="fade-up" data-aos-duration="3000">ABOUT US</h5>
+                <h1 style=" color: #ffffff;" data-aos="fade-up" data-aos-duration="3000">Air Apparent</h1>
+                <p style=" color: #ffffff; font-size: 20px;" data-aos="fade-up" data-aos-duration="3000">From the very first fan we created more than <br> 30 years ago to the newest ones in our <br> portfolio, we create fans you can’t wait to <br> show off! The same ingenuity and quality <br> craftsmanship that gave birth to Fanimation <br> continues to guide us today.</p>
+              </div>
+            </div>
+           </div>
+           <!-- fifth section end  -->
+            <!-- first footer start-->
+    <footer class="footer mt-4 pt-5 pb-4">
+      <div class="container">
+          <div class="row  text-md-left">
+              <div class="col-lg-3 col-md-3 mx-auto">
+                  <img src="img/logo-removebg-preview.png" width="160px">
+                  <br>
+                  <p>Welcome to our fanimation, <br> where every pixel pulses <br> with magic of storytelling.</p>
+                  <a href="https://www.instagram.com/fanimation/" target="_blank"><i class="bi bi-instagram fs-4" style="color: #53284f;" ></i></a>
+                  <a href="https://www.facebook.com/fanimation/" target="_blank"><i class="bi bi-facebook fs-4" style="color: #53284f;" ></i></a>
+                  <a href="https://www.twitter.com/fanimation/" target="_blank"><i class="bi bi-twitter fs-4" style="color: #53284f;" ></i></a>
+                  <a href="https://www.linkedin.com/company/fanimation" target="_blank"><i class="bi bi-linkedin fs-4" style="color: #53284f;"></i></a>
+              </div>
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-4">
+                  <!-- company logo -->
+
+                  <!-- 1st section start -->
+                  <h5 class="text-uppercase mb-4 font-weight-bold mt-3" style="color: #53284f;">Company</h5>
+
+                  <ul class="link list-unstyled text-decoration-none ">
+                      <li class="foot-item">
+                          <a class="foot-link" href="about.html" target="_self">About</a>
+                      </li>
+                      <li class="foot-item">
+                          <a class="foot-link" href="cards (1).html">Gallery</a>
+                      </li>
+                      <li class="foot-item">
+                        <a class="foot-link" href="catogeries.html">Products</a>
+                      </li>
+                      <li class="foot-item">
+                          <a class="foot-link" href="contact.html">Contact Us</a>
+                      </li>
+
+                  </ul>
+              </div>
+              <!-- 1st section end -->
+
+              <!-- 2nd section start-->
+              <div class="col-md-3 col-lg-3 mx-auto mt-4">
+                  <h5 class="text-uppercase mb-4 font-weight-bold mt-3" style="color: #53284f;">HOW TO BUY</h5>
+
+                  <ul class="link list-unstyled text-decoration-none mt-3">
+                      <li class="foot-item">
+                          <a class="foot-link" href="#">Register / Login Into Account</a>
+                      </li>
+                      <li class="foot-item">
+                          <a class="foot-link" href="#" target="_self">Terms And Conditions</a>
+                      </li>
+                      <li class="foot-item">
+                          <a class="foot-link" href="#">Privacy Policy</a>
+                      </li>
+                      <li class="foot-item">
+                          <a class="foot-link" href="#">Track Your Order</a>
+                      </li>
+
+                  </ul>
+              </div>
+              <!-- 2nd footer end  -->
+              <!-- 4 section start -->
+              <div class="col-md-3 col-lg-3 mx-auto mt-4">
+                  <h5 class="text-uppercase mb-4 mt-3" style="color: #53284f;">Fanimation</h5>
+                  <ul class="link list-unstyled text-decoration-none mt-3">
+                      <li class="home"><i class="bi bi-house-door-fill"></i>10983 Bennett Parkway</li>
+                      <li class="instagram"><i class="bi bi-instagram"></i> Zionsville, IN 46077</li>
+                      <li class="twitter"><i class="bi bi-phone"></i> Phone: 888.567.2055</li>
+                      <li class="call"><i class="bi bi-telephone-fill"></i>Fax: 866.482.5215</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!-- first footer end  -->
+      <!-- last footer start  -->
+      <footer class="bg-body- text-center text-lg-start" style="background-color:rgba(0, 0, 0, 0.05);">
+        <!-- Copyright -->
+        <div class="text-center p-3 fs-5" style="background-color:#53284f; color:#ffffff">
+            © 2024 Fanimation:
+            <a class="text-decoration-none" href="#" style="color: #ffffff; ">All Rights Reserved.</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- last footer end  -->
+           <!-- ticker script start-->
+           <script>
+            function updateDateTime()
+            {
+              var now = new Date();
+              var dateElement = document.getElementById('date');
+              var timeElement = document.getElementById('time');
+
+              var dateOptions = { weekday : 'long' , year :'numeric' , month :'long', day:'numeric'}
+              var timeOptions = { hour : 'numeric' , minute :'numeric' , second : 'numeric' , hour12 : true};
+              dateElement.textContent = now.toLocaleDateString('en-US', dateOptions);
+              timeElement.textContent = now.toLocaleDateString('en-US', timeOptions);
+            }
+            updateDateTime();
+            setInterval(updateDateTime , 1000)
+
+           </script>
+           <!-- ticker script end  -->
+           <!-- AOS  -->
+           <script>
+            AOS.init();
+          </script>
+          <!-- Bootstrap CDN Link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

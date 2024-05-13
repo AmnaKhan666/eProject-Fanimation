@@ -1,0 +1,77 @@
+.navbar-nav .nav-item .nav-link:hover
+{
+      border-bottom: 2px solid  #ffffff;;
+}
+.ticker-container
+{
+background-color: #ffffff;
+color: #53284f;
+font-weight: bold;
+position: fixed;
+width: 100%;
+padding: 10px;
+z-index: 2;
+}
+
+.ticker-content
+{
+  display: inline-block;
+  animation: animation-ticker 20s linear infinite;
+}
+
+@keyframes animation-ticker
+{
+  0%
+  {
+    transform: translate(100%);
+  }
+  100%
+  {
+    transform: translate(-100%);
+  }
+}
+.footer{
+      background-color:#ffffff ;
+      color: black
+  }
+  .link .foot-item .foot-link{
+  color: black;
+  padding: -8%;
+  }
+  .link .foot-item .foot-link :hover{
+       cursor: pointer;
+  }
+  textarea
+  {
+      border-radius: 10px;
+  }
+  .footer {
+    background-color: #ffffff;
+    color: black;
+    border-top: 2px solid #53284f;
+}
+
+.link .foot-item .foot-link {
+    color: black;
+    padding: -8%;
+}
+
+.link .foot-item .foot-link :hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    bottom: 0px;
+}
+#scrollUp
+{
+    background-image: url(scrollup-master/demo/img/top.png);
+    width: 38px;
+    height: 38px;
+    bottom: 38px;
+    right: 38px;
+}

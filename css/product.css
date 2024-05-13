@@ -1,0 +1,78 @@
+.img {
+    margin-bottom: 10px;
+    border: 2px solid #53284f;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.img:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.btn {
+    background-color: #53284f;
+    color: #ffffff;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #53284f;
+    border: 2px solid #53284f;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: black;
+    border-top: 2px solid #53284f;
+}
+
+.link .foot-item .foot-link {
+    color: black;
+    padding: -8%;
+}
+
+.link .foot-item .foot-link :hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    bottom: 0px;
+}
+.ticker-container
+{
+background-color: #ffffff;
+color: #53284f;
+font-weight: bold;
+position: fixed;
+width: 100%;
+padding: 6px;
+z-index: 2;
+}
+
+.ticker-content
+{
+display: inline-block;
+animation: animation-ticker 20s linear infinite;
+}
+
+@keyframes animation-ticker
+{
+0%
+{
+transform: translate(100%);
+}
+100%
+{
+transform: translate(-100%);
+}
+}
